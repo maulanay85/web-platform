@@ -1,0 +1,25 @@
+.button-common {
+    background-color: #ffcb05;
+    font-size: 1.2em;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .button-common:hover {
+    cursor: pointer;
+    background-color: #fcd01f;
+    
+  }
+
+  .button-common.danger{
+    background-color: #ff4c05;
+    font-size: 1.2em;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .button-common.danger:hover {
+    cursor: pointer;
+    background-color: #ff5a18;
+    
+  }
