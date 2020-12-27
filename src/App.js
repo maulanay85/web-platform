@@ -8,7 +8,7 @@ import PokemonDetail from './components/pages/Pokemon-detail';
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter basename="/">
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
