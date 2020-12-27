@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
-          <Route path={process.env.PUBLIC_URL + '/owned'} exact component={PokemonOwned} />
-          <Route path={process.env.PUBLIC_URL + '/detail/:id'} exact component={PokemonDetail} />
+          <Route path='/' exact component={Home} />
+          <Route path='/owned' exact component={PokemonOwned} />
+          <Route path='/detail/:id' exact component={PokemonDetail} />
         </Switch>
       </Router>
 
